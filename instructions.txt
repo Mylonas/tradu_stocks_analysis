@@ -1,0 +1,25 @@
+Task Overview
+
+In this task, you will receive a CSV file containing a dataset. 
+You aim to perform an Exploratory Data Analysis (EDA) on this dataset and present your findings. 
+This task will help us evaluate your ability to analyze data, identify key insights, and  
+communicate your results using visualizations.
+
+Dataset Description
+
+The dataset represents an average spread per hour for two financial instruments across multiple days. 
+Spread is the difference between the ask price (buy) and the bid price (sell).
+
+There are three columns in the dataset:
+- quote_hour: UTC timestamp when the data was recorded.
+- symbol: The symbol representing a financial instrument.
+- avg_spread: The average spread for the given hour and symbol.
+ 
+Deliverables
+
+Please submit a Jupyter notebook (.ipynb file) containing your entire analysis, including code, visualizations 
+and written explanations for the steps. 
+Make sure all cells in the notebook are executed and the outputs are saved in the notebook. 
+Provide explanations for the steps that you went through and a summary of your key findings with some charts to support them. 
+Highlight any interesting patterns, trends, or anomalies you discovered. Finally, please advise us on 
+what alert we can set up for this data to spot changes in the spreads.
